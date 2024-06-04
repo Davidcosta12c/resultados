@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +6,12 @@
 }
 
 :root {
-    font-size: 62,5%;
+    font-size: 62.5%;
     --resultado-bg: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
     --media-bg: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
-    --white: #FFF;
+    --white: #fff;
     --light-blue: #CAC9FF;
-    --dark-navy: #303B59;
+    --dark-navy: #303b59;
     --resumo-div-bg: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%);
     --reacao-bg: #FF5555;
     --memoria-bg: #FFB21E;
@@ -31,7 +31,7 @@ body {
     text-align: center;
     color: var(--white);
     border-radius: 0 0 3.2rem 3.2rem;
-}
+} 
 
 .resultado h1 {
     font-size: 1.8rem;
@@ -51,13 +51,13 @@ body {
     margin-bottom: 2.4rem;
 }
 
-.resultado div strong:nth-of-type(1) {
+.resultado div strong:nth-of-type(1){
     font-size: 5.6rem;
     font-weight: 800;
     line-height: 7.2rem;
 }
 
-.resultado div strong:nth-of-type(2) {
+.resultado div strong:nth-of-type(2){
     color: var(--light-blue);
 }
 
@@ -71,18 +71,19 @@ body {
     margin-inline: auto;
     color: var(--light-blue);
 }
+
 .resumo {
     padding: 2.4rem 3.2rem;
     background: var(--white);
 }
 
-.resumo h2 {
+.resumo h2{
     color: var(--dark-navy);
     font-size: 1.8rem;
     margin-bottom: 2.5rem;
 }
 
-.resumo > div {
+.resumo > div{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,17 +92,18 @@ body {
     margin-bottom: 1.6rem;
 }
 
-.resumo > div div {
+.resumo > div div{
     display: flex;
     align-items: center;
     gap: 1.2rem;
+
 }
 
-.resumo > div strong {
+.resumo > div strong{
     color: var(--dark-navy);
 }
 
-.resumo > div strong span {
+.resumo > div strong span{
     opacity: 0.5;
 }
 
@@ -110,22 +112,22 @@ body {
     color: var(--reacao-bg);
 }
 
-.resumo_memoria {
+.resumo_memoria{
     background: var(--memoria-bg) var(--resumo-div-bg);
     color: var(--memoria-bg);
 }
 
-.resumo_verbal {
+.resumo_verbal{
     background: var(--verbal-bg) var(--resumo-div-bg);
     color: var(--verbal-bg);
 }
 
-.resumo_visual {
+.resumo_visual{
     background: var(--visual-bg) var(--resumo-div-bg);
     color: var(--visual-bg);
 }
 
-.resumo button {
+.resumo button{
     margin-top: 0.8rem;
     width: 100%;
     border: none;
@@ -138,7 +140,7 @@ body {
 }
 
 @media (min-width: 736px) {
-    body {
+    body{
         min-height: 100svh;
         display: flex;
         justify-content: center;
@@ -148,7 +150,6 @@ body {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* width: 80%; */
         width: 736px;
         background: var(--white);
         border-radius: 3.2rem;
@@ -159,7 +160,7 @@ body {
         border-radius: 3.2rem;
     }
 
-    .resultado h1 {
+    .resultado h1{
         font-size: 2.4rem;
         margin-bottom: 3.6rem;
     }
@@ -170,11 +171,11 @@ body {
         margin-bottom: 2.8rem;
     }
 
-    .resultado div strong:nth-of-type(1) {
+    .resultado div strong:nth-of-type(1){
         font-size: 7.2rem;
     }
 
-    .resultado div strong:nth-of-type(2) {
+    .resultado div strong:nth-of-type(2){
         font-size: 1.8rem;
     }
 
@@ -183,7 +184,7 @@ body {
         margin-bottom: 1.6rem;
     }
 
-    .resultado p {
+    .resultado p{
         font-size: 1.8rem;
     }
 
@@ -192,21 +193,23 @@ body {
         border-radius: 3.2rem;
     }
 
-    .resumo h2 {
+    .resumo h2{
         font-size: 2.4rem;
         margin-bottom: 3rem;
     }
 
-    .resumo div {
+    .resumo div{
         font-size: 1.8rem;
     }
 
-    .resumo button {
+    .resumo button{
         margin-top: 2.4rem;
     }
 
-    .resumo button:hover {
+    .resumo button:hover{
         background: var(--resultado-bg);
         cursor: pointer;
     }
+
+
 }
